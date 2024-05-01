@@ -114,4 +114,3 @@ def places_search():
         places_amenities = all_places
     result = [place.to_json() for place in places_amenities]
     return jsonify(result)
-

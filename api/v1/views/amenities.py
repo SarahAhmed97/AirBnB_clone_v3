@@ -55,4 +55,3 @@ def amenities_with_id(amenity_id=None):
             abort(400, 'Not a JSON')
         amenity_obj.bm_update(req_json)
         return jsonify(amenity_obj.to_json()), 200
-

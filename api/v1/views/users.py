@@ -73,4 +73,3 @@ def user_put(user_id):
     user.save()
     user = user.to_json()
     return jsonify(user), 200
-
