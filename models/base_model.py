@@ -132,4 +132,3 @@ class BaseModel:
             deletes current instance from storage
         """
         models.storage.delete(self)
-

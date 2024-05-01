@@ -121,4 +121,3 @@ class FileStorage:
         count of all objects in storage
         """
         return (len(self.all(cls)))
-

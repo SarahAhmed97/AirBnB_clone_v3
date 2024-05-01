@@ -71,4 +71,3 @@ def state_put(state_id):
     state.save()
     state = state.to_json()
     return jsonify(state), 200
-
