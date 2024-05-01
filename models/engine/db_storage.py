@@ -115,3 +115,4 @@ class DBStorage:
                 for item in obj_class:
                     obj_dict[item.id] = item
             return len(obj_dict)
+
