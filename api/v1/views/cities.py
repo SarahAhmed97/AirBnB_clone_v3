@@ -81,3 +81,4 @@ def city_put(city_id):
     city.save()
     city = city.to_json()
     return jsonify(city), 200
+
